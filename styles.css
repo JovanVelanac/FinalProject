@@ -1,0 +1,120 @@
+body{
+ max-width: 1400px;
+ margin: 0 auto;
+}
+
+.image{
+  background-image: url(/resources/Jovan.jpeg);
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-color: hsla(0,0%,100%,0%);
+  background-blend-mode: overlay;
+  transition: 1s;
+  height: 200px;
+  width:400px;
+  color: transparent;
+}
+.image:hover{
+  background-color: hsla(0,0%,100%,70%);
+  transition: 1s;
+  color: rgba(0,0,0,1);
+  text-align: center;
+}
+
+.name {
+    background-color: #4657AD;
+    color: white;
+    width: 1100px;
+    margin-top: 10px;
+}
+
+.name >h1 {
+    padding: 10px;
+}
+
+.underline{
+    background-color: #4657AD;
+    height: 5px;
+    margin-top: -15px;
+    width: 1100px;
+}
+
+ul{
+  list-style-image: url(/resources/bluecicrcle.png);
+
+}
+li {
+padding: 10px 0px;
+max-width:600px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width:1100px){
+  .list{
+    flex-direction: column;
+  }
+}
+
+.container {
+  margin-top: 50px;
+  opacity: unset;
+}
+
+.container1 {
+  margin-top: 50px;
+}
+
+.bio {
+  list-style: circle;
+}
+
+.skills{
+  background-image: url(/resources/comp.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:right;
+  background-color: hsla(0,0%,100%,100%);
+  background-blend-mode: overlay;
+  transition: 1s;
+}
+
+.skills:hover{
+  background-color: hsla(0,0%,100%,70%);
+  transition: 1s;
+}
+
+
+.experience{
+  background-image: url(/resources/study.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:right;
+  background-color: hsla(0,0%,100%,100%);
+  background-blend-mode: overlay;
+  transition: 1s;
+
+}
+
+.experience:hover{
+  background-color: hsla(0,0%,100%,70%);
+  transition: 1s;
+
+}
+
+.biocon{
+  background-image: url(/resources/me.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:right;
+  background-color: hsla(0,0%,100%,100%);
+  background-blend-mode: overlay;
+  transition: 1s;
+}
+
+.biocon:hover{
+  background-color: hsla(0,0%,100%,70%);
+  transition: 1s;
+}
